@@ -6,7 +6,7 @@
 | ---- |:-----------------------------------------------:|:-----------------------------------------------:| :-----------------------------------------------:|
 |0     |                                                 |                                                 | [팰린드로미터](https://www.acmicpc.net/problem/4096)|
 |Check |                                                 | 🟢/❌                                           | SJ[❌]/SH[❌]/HS[❌]/JH[❌]                       | 
-|1     | [새로운문제](https://github.com/iamsojung/ABIO))   |[새로운문제](https://github.com/iamsojung/ABIO))   | [새로운문제](https://github.com/iamsojung/ABIO))    | 
+|1     | [새로운문제](https://github.com/iamsojung/ABIO)    |[새로운문제](https://github.com/iamsojung/ABIO)    | [새로운문제](https://github.com/iamsojung/ABIO)     | 
 |Check | SJ[❌]/SH[❌]/HS[❌]/JH[❌]                      | SJ[❌]/SH[❌]/HS[❌]/JH[❌]                       | SJ[❌]/SH[❌]/HS[❌]/JH[❌]                       | 
 |2     |                                                 |                                                 |                                                  | 
 |Check | SJ[❌]/SH[❌]/HS[❌]/JH[❌]                      | SJ[❌]/SH[❌]/HS[❌]/JH[❌]                       | SJ[❌]/SH[❌]/HS[❌]/JH[❌]                       | 
