@@ -19,8 +19,6 @@
   
   
   
-  
-
 ## 문제 Ref
 📁 백준 github https://github.com/tony9402/baekjoon  
 📁 <오늘의 문제> https://github.com/tony9402/baekjoon/blob/main/picked.md  
