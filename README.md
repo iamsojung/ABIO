@@ -10,12 +10,7 @@
 |Check | SJ[❌]/SH[❌]/HS[❌]/JH[❌]                      | SJ[❌]/SH[❌]/HS[❌]/JH[❌]                       | SJ[❌]/SH[❌]/HS[❌]/JH[❌]                       | 
 |2     |                                                 |                                                 |                                                  | 
 |Check | SJ[❌]/SH[❌]/HS[❌]/JH[❌]                      | SJ[❌]/SH[❌]/HS[❌]/JH[❌]                       | SJ[❌]/SH[❌]/HS[❌]/JH[❌]                       | 
-|3     |                                                 |                                                 |                                                  |
-|Check | SJ[❌]/SH[❌]/HS[❌]/JH[❌]                      | SJ[❌]/SH[❌]/HS[❌]/JH[❌]                       | SJ[❌]/SH[❌]/HS[❌]/JH[❌]                       | 
-|4     |                                                 |                                                 |                                                  | 
-|Check | SJ[❌]/SH[❌]/HS[❌]/JH[❌]                      | SJ[❌]/SH[❌]/HS[❌]/JH[❌]                       | SJ[❌]/SH[❌]/HS[❌]/JH[❌]                       | 
-  
-  
+
   
   
   
