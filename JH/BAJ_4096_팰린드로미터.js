@@ -20,7 +20,16 @@
     function solution(s){
 
     }
-    const value = 111233;
+
+    //////////////////////////////////////////////////////////////////
+    const value = 4561;
+
+    function addValue(value){
+        while(isCheck(value)){
+            value ++;
+        }
+        return value;
+    }
 
     function setValue(value){
         const valueSize = value.toString().length;
@@ -39,14 +48,15 @@
     }
     function isCheck(value){
         if(value == value.toString().split('').reverse().join('')){
-            return true;
+            return false;
         }
-        return false;
+        return true;
     }
 
 
     console.log(isCheck(value));
     console.log(setValue(value));
+    console.log(addValue(value) - value);
 
 
     //case : 짝수인 길이의 숫자는 중심 숫자 비교해서 팰린드롬 처리
