@@ -22,30 +22,24 @@
     }
 
     //////////////////////////////////////////////////////////////////
-    const value = 4561;
+    const value = "004561";
 
     function addValue(value){
+        const valueSize = value.toString().length;
         while(isCheck(value)){
             value ++;
+            value = addZero(value, valueSize - value.toString().length);
         }
         return value;
     }
 
-    function setValue(value){
-        const valueSize = value.toString().length;
-        const halfSize = valueSize/2;
-
-        if((valueSize%2) == 0 ){
-            //자리수 짝수
-            const reSetValue = value.toString().substr(0,halfSize);
-            return reSetValue + reSetValue.split('').reverse().join('');
-        }else{
-            //자리수 홀수 
-            const middleIndex = Math.ceil(halfSize);
-            const reSetValue = value.toString().substr(0,middleIndex);
-            return reSetValue + reSetValue.split('').reverse().join('').substr(1,middleIndex);
+    function addZero(value,size){
+        for(var i=0; i<size; i++){
+            value = "0"+ value;
         }
+        return value;
     }
+
     function isCheck(value){
         if(value == value.toString().split('').reverse().join('')){
             return false;
@@ -53,9 +47,26 @@
         return true;
     }
 
+    // 규칙성 case...
+    // function setValue(value){
+    //     const valueSize = value.toString().length;
+    //     const halfSize = valueSize/2;
+
+    //     if((valueSize%2) == 0 ){
+    //         //자리수 짝수
+    //         const reSetValue = value.toString().substr(0,halfSize);
+    //         return reSetValue + reSetValue.split('').reverse().join('');
+    //     }else{
+    //         //자리수 홀수 
+    //         const middleIndex = Math.ceil(halfSize);
+    //         const reSetValue = value.toString().substr(0,middleIndex);
+    //         return reSetValue + reSetValue.split('').reverse().join('').substr(1,middleIndex);
+    //     }
+    // }
 
     console.log(isCheck(value));
-    console.log(setValue(value));
+    //console.log(setValue(value));
+    console.log(addValue(value));
     console.log(addValue(value) - value);
 
 
