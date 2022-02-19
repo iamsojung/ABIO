@@ -24,13 +24,17 @@
 
     function setValue(value){
         const valueSize = value.toString().length;
+        const halfSize = valueSize/2;
 
         if((valueSize%2) == 0 ){
-            const reSetValue = value.toString().substr(0,valueSize/2);
+            //자리수 짝수
+            const reSetValue = value.toString().substr(0,halfSize);
             return reSetValue + reSetValue.split('').reverse().join('');
         }else{
-            const reSetValue = value.toString().substr(0,Math.ceil(valueSize/2));
-            return reSetValue + reSetValue.split('').reverse().join('').substr(1,Math.ceil(valueSize/2));
+            //자리수 홀수 
+            const middleIndex = Math.ceil(halfSize);
+            const reSetValue = value.toString().substr(0,middleIndex);
+            return reSetValue + reSetValue.split('').reverse().join('').substr(1,middleIndex);
         }
     }
     function isCheck(value){
