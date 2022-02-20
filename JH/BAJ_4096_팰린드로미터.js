@@ -10,15 +10,13 @@
 
 // node ./JH/BAJ_4096_팰린드로미터.js
 
-
+    var s = prompt();
     const result = (s) =>{
-        
-
-        return meter;
+        return addValue(s)
     }
 
     function solution(s){
-
+        return result;
     }
 
     //////////////////////////////////////////////////////////////////
