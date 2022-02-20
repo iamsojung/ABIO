@@ -4,20 +4,25 @@ public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        String s = sc.nextLine();
-        int result = 0;
-
-        while (check(s)) {
+        while (true) {
+            String s = sc.nextLine();
             if ("0".equals(s)) {
                 break;
             }
-            s = "0".repeat(s.length() - String.valueOf(Integer.parseInt(s) + 1).length()) + (Integer.parseInt(s) + 1);
-            result++;
+            int result = 0;
+
+            while (check(s)) {
+
+                s = "0".repeat(s.length() - String.valueOf(Integer.parseInt(s) + 1).length())
+                        + (Integer.parseInt(s) + 1);
+                result++;
+            }
+
+            if (!"0".equals(s)) {
+                System.out.println(result);
+            }
         }
 
-        if (!"0".equals(s)) {
-            System.out.println(result);
-        }
     }
 
     public static boolean check(String s) {
@@ -31,4 +36,5 @@ public class Main {
 
         return false;
     }
+
 }
