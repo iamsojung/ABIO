@@ -3,20 +3,23 @@ import java.util.Scanner;
 public class BAJ_4096 {
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
-        String value = sc.nextLine();
-        
-        int intValue = Integer.parseInt(value);
+
+        while(true){
+            String value = sc.nextLine();
+            int intValue = Integer.parseInt(value);
     
-        int cnt = 0;
-
-        while(isCheck(value)){
-            intValue++;
-            cnt++;
-
-            int sizeGap = value.toString().length() - Integer.toString(intValue).length();
-            value = addZero(intValue,sizeGap);
+            int cnt = 0;
+            if(value.equals("0")) break;
+            
+            while(isCheck(value)){
+                intValue++;
+                cnt++;
+                
+                int sizeGap = value.toString().length() - Integer.toString(intValue).length();
+                value = addZero(intValue,sizeGap);
+            }
+            System.out.println(cnt);
         }
-        System.out.println(cnt);
     }
 
     public static boolean isCheck(String value){
