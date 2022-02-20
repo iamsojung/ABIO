@@ -1,10 +1,10 @@
-import java.io.BufferedReader;
-import java.io.InputStreamReader;
+import java.util.Scanner;
 
 public class BAJ_4096 {
     public static void main(String[] args){
-        BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
-        String value = bf.toString();
+        Scanner sc = new Scanner(System.in);
+        String value = sc.nextLine();
+        
         int intValue = Integer.parseInt(value);
     
         int cnt = 0;
