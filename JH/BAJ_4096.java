@@ -16,9 +16,9 @@ public class BAJ_4096 {
             int sizeGap = value.toString().length() - Integer.toString(intValue).length();
             value = addZero(intValue,sizeGap);
         }
-        System.out.println(value);
         System.out.println(cnt);
     }
+
     public static boolean isCheck(String value){
         StringBuffer str = new StringBuffer(value);
         if(value.equals(str.reverse().toString())){
