@@ -8,7 +8,7 @@
 |0     |                                            |                                           | [팰린드로미터](https://www.acmicpc.net/problem/4096) |
 |Check |                                            |                                           | SJ[🟢]/SH[🟢]/HS[🟢]/JH[🟢]                    | 
 |1     | [문자열압축](https://programmers.co.kr/learn/courses/30/lessons/60057) | [괄호변환](https://programmers.co.kr/learn/courses/30/lessons/60058) | [타겟넘버](https://programmers.co.kr/learn/courses/30/lessons/43165)      | 
-|Check | SJ[❌]/SH[❌]/HS[❌]/JH[❌]                    | SJ[❌]/SH[❌]/HS[❌]/JH[❌]                   | SJ[❌]/SH[❌]/HS[❌]/JH[❌]                        | 
+|Check | SJ[❌]/SH[❌]/HS[❌]/JH[🟢]                    | SJ[❌]/SH[❌]/HS[❌]/JH[❌]                   | SJ[❌]/SH[❌]/HS[❌]/JH[❌]                        | 
 |2     |                                            |                                           |                                                | 
 |Check | SJ[❌]/SH[❌]/HS[❌]/JH[❌]                    | SJ[❌]/SH[❌]/HS[❌]/JH[❌]                   | SJ[❌]/SH[❌]/HS[❌]/JH[❌]                        | 
 |3     |                                            |                                           |                                                | 
