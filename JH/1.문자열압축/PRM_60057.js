@@ -1,6 +1,6 @@
 // node ./JH/1.문자열압축/PRM_60057.js
 
-const s = "aabbcc";
+const s = "aabbaccc";
 
 function solution(s) {
     var answer = 0;
@@ -17,13 +17,14 @@ function solution(s) {
                     result += cntMap.get(str) + str;
                 }
             }
-            console.log(s.substr(j*i,i));
-
             str = s.substr(j*i,i);
         }
-        console.log("##: "+result);
+        result = result.replace(/1/gi, "");
+        if(answer == 0 || answer > result.length){
+            answer = result.length;
+        }
     }
-    return result;
+    return answer;
 }
 
 console.log("@@: "+solution(s));
