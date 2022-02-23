@@ -5,7 +5,9 @@
 // ")("         > 	"()"
 // "()))((()"   >   "()(())()"
 
-
+// node ./JH/1.괄호변환/PRM_60058.js
+console.log("@@@");
+console.log(solution("((()()))(("));
 function solution(p) {
     if(isCheck(p)){
         return p;
@@ -36,7 +38,7 @@ function solution(p) {
     function getIdx(p){
         const arr = p.split('');
         const reArr = [];
-        for(var i=0; i<p.length; i++){
+        for(var i=0; i<p.length+1; i++){
             if(arr[i] === '(' && arr[i+1] === ')'){
                 reArr.push(i);
                 reArr.push(i+1);
@@ -47,6 +49,7 @@ function solution(p) {
     function getSort(p){
         //const trs = p.replace(/\(/gi,"0").replace(/\)/gi,"1");
         const str = p.split("()").join('').split('').sort().join('');
+        console.log(str);
         return str;
 
     }
