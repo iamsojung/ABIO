@@ -37,3 +37,26 @@ function solution(numbers, target) {
         return arr.reverse().join('').replace(/0/gi,"+").replace(/1/gi,"-").split('');
     }
 }
+
+
+///dfs 재귀함수
+
+
+function solution(numbers, target) {
+    var answer = 0;
+    setDfs(numbers, numbers[0], 0, target); //+1 로 시작
+    setDfs(numbers, -1 * numbers[0], 0, target); //-1로 시작 
+    
+    return answer;
+
+    function setDfs(numbers, number, depth ,target){
+        if(depth === numbers.length-1){
+            if(number === target){
+                answer++;
+            }
+        }else{
+            setDfs(numbers, number + numbers[depth+1], depth+1, target);
+            setDfs(numbers, number - numbers[depth+1], depth+1, target);
+        }
+    }
+}
