@@ -12,7 +12,7 @@
 |2     | [Two Sum](https://leetcode.com/problems/two-sum/) | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) | [Reorder Data in Log Files](https://leetcode.com/problems/reorder-data-in-log-files/) | 
 |Check | SJ[🟢/SH[🟢]/HS[🟢]/JH[🟢]                    | SJ[❌]/SH[🟢]/HS[🟢]/JH[🔺]                   | SJ[❌]/SH[❌]/HS[❌]/JH[🔺]                        | 
 |3     |[가장 큰 수](https://programmers.co.kr/learn/courses/30/lessons/42746)|[조이스틱](https://programmers.co.kr/learn/courses/30/lessons/42860)|[큰 수 만들기](https://programmers.co.kr/learn/courses/30/lessons/42883)| 
-|Check | SJ[❌]/SH[❌]/HS[❌]/JH[❌]                    | SJ[❌]/SH[❌]/HS[❌]/JH[❌]                   | SJ[❌]/SH[❌]/HS[❌]/JH[[🔺]                        | 
+|Check | SJ[❌]/SH[❌]/HS[❌]/JH[🔺]                    | SJ[❌]/SH[❌]/HS[❌]/JH[❌]                   | SJ[❌]/SH[❌]/HS[❌]/JH[❌]                        | 
 |4     | [있었는데요 없었습니다](https://programmers.co.kr/learn/courses/30/lessons/59043) | [일별 누적 접속자 통계 구하기](http://www.gurubee.net/lecture/2955) | [오라클 계층구조 쿼리의 이해](http://www.gurubee.net/lecture/2223) | 
 |Check | SJ[❌]/SH[❌]/HS[❌]/JH[❌]                    | SJ[❌]/SH[❌]/HS[❌]/JH[❌]                   | SJ[❌]/SH[❌]/HS[❌]/JH[❌]                        | 
 |5     |                                               |                                              |                                                  | 
