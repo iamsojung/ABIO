@@ -12,7 +12,7 @@
 |2     | [Two Sum](https://leetcode.com/problems/two-sum/) | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) | [Reorder Data in Log Files](https://leetcode.com/problems/reorder-data-in-log-files/) | 
 |Check | SJ[🟢/SH[🟢]/HS[🟢]/JH[🟢]                    | SJ[❌]/SH[🟢]/HS[🟢]/JH[🔺]                   | SJ[❌]/SH[❌]/HS[❌]/JH[🔺]                        | 
 |3     |[가장 큰 수](https://programmers.co.kr/learn/courses/30/lessons/42746)|[조이스틱](https://programmers.co.kr/learn/courses/30/lessons/42860)|[큰 수 만들기](https://programmers.co.kr/learn/courses/30/lessons/42883)| 
-|Check | SJ[❌]/SH[❌]/HS[❌]/JH[❌]                    | SJ[❌]/SH[❌]/HS[❌]/JH[❌]                   | SJ[❌]/SH[❌]/HS[❌]/JH[❌]                        | 
+|Check | SJ[❌]/SH[❌]/HS[❌]/JH[❌]                    | SJ[❌]/SH[❌]/HS[❌]/JH[❌]                   | SJ[❌]/SH[❌]/HS[❌]/JH[[🔺]                        | 
 |4     |                                               |                                              |                                                  | 
 |Check | SJ[❌]/SH[❌]/HS[❌]/JH[❌]                    | SJ[❌]/SH[❌]/HS[❌]/JH[❌]                   | SJ[❌]/SH[❌]/HS[❌]/JH[❌]                        | 
 |5     |                                               |                                              |                                                  | 

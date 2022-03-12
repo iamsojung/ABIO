@@ -27,12 +27,15 @@ public class Week3_2 {
 //            }
             answer += count;
         }
+        // 양옆 이동 갯수 구하기
         answer += nameCharArr.length - 1;
         return answer;
     }
 
     public static int getMoveCount(char[] charArr) {
 //        str = "JAZ";//+13+1+1  // AAZ +1+1 // BAAAZ // BBAAAAAZ
+        int count = 0;
+        int visit = 1;
 
 
         return 0;
