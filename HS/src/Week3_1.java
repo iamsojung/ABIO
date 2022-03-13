@@ -1,6 +1,7 @@
 import java.util.Arrays;
 
 // programmers.가장 큰 수
+// 다른 사람 풀이 참고는 했으나 소스 수정은 안함
 public class Week3_1 {
     public static void main(String[] args) {
         int[] arr = {3, 30, 34, 5, 9};

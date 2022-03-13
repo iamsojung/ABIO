@@ -1,4 +1,5 @@
 // programmers.조이스틱
+// 다른 사람 풀이 참고는 했으나 소스 수정은 안함
 public class Week3_2 {
     public static void main(String[] args) {
         solution("JEROEN"); // 56
