@@ -22,6 +22,7 @@
   
   
 ## 🔗 무설치 쿼리 연습 사이트 Ref
+📁 sqltest https://kkh0977.tistory.com/556 (아래 사이트 안되면 여기로)  
 📁 sqlfiddle https://ggmouse.tistory.com/408 
 
 ## 🔗 문제 Ref
