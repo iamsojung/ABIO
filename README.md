@@ -16,7 +16,7 @@
 |4     | [있었는데요 없었습니다](https://programmers.co.kr/learn/courses/30/lessons/59043) | [일별 누적 접속자 통계 구하기](http://www.gurubee.net/lecture/2955) | [오라클 계층구조 쿼리의 이해](http://www.gurubee.net/lecture/2223) | 
 |Check | SJ[🟢]/SH[🟢]/HS[🟢]/JH[🟢]                    | SJ[❌]/SH[🟢]/HS[🟢]/JH[❌]                   | SJ[❌]/SH[🟢]/HS[🟢]/JH[🟢]                        | 
 |5     | [폰켓몬](https://programmers.co.kr/learn/courses/30/lessons/1845) |  [H-Index](https://programmers.co.kr/learn/courses/30/lessons/42747) | [거리두기 확인하기](https://programmers.co.kr/learn/courses/30/lessons/81302) | 
-|Check | SJ[❌]/SH[❌]/HS[❌]/JH[🟢]                    | SJ[❌]/SH[❌]/HS[❌]/JH[❌]                   | SJ[❌]/SH[❌]/HS[❌]/JH[❌]                        | 
+|Check | SJ[❌]/SH[❌]/HS[🔺]/JH[🟢]                    | SJ[❌]/SH[❌]/HS[❌]/JH[❌]                   | SJ[❌]/SH[❌]/HS[❌]/JH[❌]                        | 
 
   CHECK FLAG [ 🟢 / 🔺 / ❌ ] 
   
